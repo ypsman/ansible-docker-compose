@@ -1,6 +1,6 @@
-ansible docker
-==============
-[![Build Status](https://travis-ci.org/ypsman/ansible-docker.svg?branch=master)](https://travis-ci.org/ypsman/ansible-docker)
+ansible docker-compose
+======================
+[![Build Status](https://travis-ci.org/ypsman/ansible-docker-compose.svg?branch=master)](https://travis-ci.org/ypsman/ansible-docker-compose)
 
 This Role installs docker-compose on youre Server.
 

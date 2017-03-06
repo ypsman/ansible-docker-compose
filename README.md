@@ -6,7 +6,7 @@ This Role installs docker-compose on youre Server.
 
 You can specifie a version to install.
 
-The docker_compose_version variable is optinal.
+The docker_compose_version variable is optional.
 
 Example Playbook
 ----------------

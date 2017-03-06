@@ -1,0 +1,17 @@
+---
+# tasks file for ansible-docker-compose
+- name: install python-pip
+  apt:
+    name: python-pip
+    state: latest
+
+- name: install docker-compose specified Version
+  pip:
+    name: docker-compose
+    version: {{ docker_compose_version }}
+  when: docker_compose_version is defined and docker_compose_version != ""
+
+- name: install docker-compose latest Version
+  pip:
+    name: docker-compose
+  when: docker_compose_version is not defined

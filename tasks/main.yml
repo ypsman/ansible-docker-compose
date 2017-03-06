@@ -8,7 +8,7 @@
 - name: install docker-compose specified Version
   pip:
     name: docker-compose
-    version: {{ docker_compose_version }}
+    version: "{{ docker_compose_version }}"
   when: docker_compose_version is defined and docker_compose_version != ""
 
 - name: install docker-compose latest Version
